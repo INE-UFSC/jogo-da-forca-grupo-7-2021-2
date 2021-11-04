@@ -44,6 +44,8 @@ def percorrimento_palavra(guess, palavra):
         print("errou")
         
         vidas -= 1 
+        
+        hangman.draw(vidas)
 
     pass
 
